@@ -6,6 +6,11 @@ cd axonc
 git submodule update --init --recursive
 ```
 
+Create conda environment
+```
+bash create_env.sh
+```
+
 Make onnx2c:
 ```
 make onnx2c
