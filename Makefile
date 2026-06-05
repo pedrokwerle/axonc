@@ -49,12 +49,12 @@ $(GEN_DIR)/%/:
 onnx2c: $(ONNX2C)
 
 $(ONNX2C): onnx2c/CMakeLists.txt
-	cd onnx2c && git submodule update --init
+	cd onnx2c && git submodule update --init --recursive
 	mkdir -p onnx2c/build
 	cd onnx2c/build && cmake -DCMAKE_BUILD_TYPE=Release .. && make onnx2c
 
 onnx2c/CMakeLists.txt:
-	git submodule update --init
+	git submodule update --init --recursive
 
 # ---------- clean ----------
 clean:
