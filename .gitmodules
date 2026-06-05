@@ -1,3 +1,6 @@
 [submodule "onnx2c"]
 	path = onnx2c
 	url = https://github.com/pedrokwerle/onnx2c
+[submodule "sauria_gen"]
+	path = sauria_gen
+	url = git@github.com:pedrokwerle/sauria_gen.git
