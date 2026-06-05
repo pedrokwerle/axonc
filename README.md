@@ -17,6 +17,7 @@ make example MODEL_NAME=squeezenet1_0_Opset16_fp16_unpadded
 ```
 
 Try with other models:
+The model must be in the models directory
 ```
 make MODEL=<model_name>
 ```
